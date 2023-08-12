@@ -1,0 +1,163 @@
+/*----------------ACHIEVEMENTS---------------*/
+.about__achievements{
+    margin-top: 3rem;
+}
+
+.about__achievements-container{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 5rem;
+}
+
+.about__achievements-right > p{
+    margin: 1.6rem 0 2.5rem;
+}
+
+.achievement__cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.achievement__card{
+    background: var(--color-bg2);
+    padding: 1.6rem;
+    border-radius: 1rem;
+    text-align: center;
+    transition: var(--transition);
+}
+
+.achievement__card:hover{
+    background: var(--color-bg2);
+   box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.3);
+}
+
+.achievement__icon{
+    background: var(--color-warning);
+    padding: 0.6rem;
+    border-radius: 1rem;
+    display: inline-block;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.achievement__card:nth-child(2)
+.achievement__icon{
+    background: var(--color-success);
+}
+
+.achievement__card p{
+    margin-top: 1rem;
+}
+
+
+/*------------achievement-end---------------*/
+
+
+.safety{
+    margin-top: 3rem;
+    background: var(--color-bg1);
+}
+
+.safety-container{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 5rem;
+}
+
+.safety-right > p{
+    margin: 1.6rem 0 2.5rem;
+}
+
+
+/*------------safety-end---------------*/
+
+
+
+.pocso{
+    margin-top: 3rem;
+}
+
+.pocso-container{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 5rem;
+}
+
+.pocso-right > p{
+    margin: 1.6rem 0 2.5rem;
+}
+
+
+
+/*------------posco-end---------------*/
+
+
+
+
+/*------------------PROGRAMS-START---------------*/
+.programs{
+    background: var(--color-bg1);
+    box-shadow: inset 0 0 3rem rgba(0, 0, 0, 0.3);
+}
+
+.program__container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 4rem;
+}
+
+.program__choice{
+    background: transparent;
+    padding: 2rem;
+    transition: var(--transition);
+}
+
+.program__choice:hover{
+    background: transparent;
+    border-color: var(--color-primary);
+}
+
+
+
+/*------------------CONTACT-CONTAINER-----------------*/
+.contact__container{
+    background: var(--color-bg1);
+    padding: 4rem;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap:4rem;
+    height:30rem;
+    margin:7rem auto;
+    border-radius: 1rem;
+}
+
+.contact__aside{
+    background:var(--color-primary);
+    padding: 3rem;
+    border-radius: 1rem;
+    position: relative;
+    bottom: 5rem;
+}
+
+.aside__image{
+    width: 12rem;
+    margin-bottom: 2rem;
+}
+
+.contact__aside h2{
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.contact__aside p{
+    font-size: 0.9rem;
+    margin-bottom: 2rem;
+}
+
+.contact__details li {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 1rem;
+}
